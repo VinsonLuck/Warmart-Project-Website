@@ -1,0 +1,259 @@
+body{
+  background-image: url("/image/warmartbackground.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  background-image: url("/image/PromoBigSale.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:left;
+  margin-top: 70px;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: end;
+}
+
+.main-container {
+  z-index: 9999;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  padding: 0 0 50px 0;
+}
+
+.second {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #b2762d;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  top: 40px;
+  
+}
+
+.dropbtn {
+  width: 400px;
+  height: 75px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px 50px 0 0;
+  font-family:inter;
+  font-weight:400;
+}
+
+.dropdown-content {
+  display: none;
+  
+  position: absolute;
+  background-color: #ebeaea;
+  min-width: 160px;
+  z-index: 1;
+  border-radius: 0px 0px 10px 10px;
+  align-items: center;
+}
+
+.dropdown-content button{
+  color: black;
+  padding: 12px 150px;
+  text-decoration: none;
+  display: flex;
+  background: none;
+  border:none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#hotpromo{
+  padding:12px 170px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#third li {
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+  font-family: inter;
+}
+
+@font-face {
+  font-family: inter;
+  src: url(/font/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+#third{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+#third img {
+  margin-top:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+
+  width:80%;
+}
+
+#four li {
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+  font-family: inter;
+}
+#four{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display:none;
+}
+#four img {
+  margin-top:45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:40%;
+}
+
+#five li {
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+  font-family: inter;
+}
+#five{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  display:none;
+}
+#five img {
+  margin-top:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:20%;
+}
+@media screen and (max-width: 480px) {
+  main {
+    margin-top: 73px;
+    background-position: start;
+    background-size: cover;
+  }
+
+  .second {
+    padding: 20px;
+  }
+
+  .dropbtn {
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+  }
+
+  #third li {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  #four li{
+    font-size:24px;
+    margin-top:30px;
+  }
+  #five li{
+    font-size:24px;
+    margin-top:30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    margin-top: 73px;
+  }
+
+  .dropbtn {
+    width: 300px;
+    height: 60px;
+    font-size: 28px;
+  }
+
+  #third li {
+    font-size: 28px;
+    margin-top: 60px;
+  }
+  #four li {
+    font-size: 28px;
+    margin-top: 60px;
+  }
+  #five li {
+    font-size: 28px;
+    margin-top: 60px;
+  }
+  
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    margin-top: 73px;
+  }
+
+  .dropbtn {
+    width: 320px;
+    height: 65px;
+    font-size: 32px;
+  }
+
+  #third li {
+    font-size: 32px;
+    margin-top: 80px;
+  }
+  #four li {
+    font-size: 32px;
+    margin-top: 80px;
+  }
+  #five li {
+    font-size: 32px;
+    margin-top: 80px;
+  }
+  .dropdown-content{
+    width:320px;
+    
+  }
+  #hotpromo{
+    padding:12px 155px;
+  }
+}

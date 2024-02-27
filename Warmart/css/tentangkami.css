@@ -1,0 +1,390 @@
+@font-face {
+    font-family: raleway;
+    src: url(/font/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: opensans;
+    src: url(/font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+.tentangkami{
+    margin-top:73px;
+}
+
+.aboutus{
+    background-image: url(/image/tentangkami1.jpg);
+    height:91vmin;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.blackopacity{
+    background-color: rgb(0, 0, 0,0.73);
+    height:91vmin;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.tulisanabout{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tulisanabout h1{
+    font-family:raleway;
+    color:white;
+    font-size:4vw;
+    font-weight: bold;
+}
+/* .garisputih{
+    display:flex;
+   background-color: white;
+    height:5vmin;
+} */
+.tulisanabout hr{
+    background-color: white;
+    width:42vmin;
+    height:1.2vmin;
+}
+.tulisanabout h2{
+    color:white;
+    font-family: raleway;
+    font-weight:400;
+    text-align: center;
+    font-size:3.7vmin;
+}
+.kotakawal{
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top:25px;
+    font-family: raleway;
+}
+.kotakawal a{
+    text-decoration: none;
+    color:black;
+    font-size:1.5vmin;
+    align-items: center;
+    justify-content: center;
+    font-weight:700;
+}
+.kotak:hover{
+    background-color:#EE6E17;
+    transition:ease 0.8s;
+}
+.kotak{
+    background:#F99A5B;
+    width:14vmin;
+    height:4.1vmin;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius:5px;
+    display:flex;
+    scroll-behavior: smooth;
+}
+
+.vector{
+    display:flex;
+    justify-content: center;
+    margin-top:10vmin;
+}
+.profilperusahaan{
+    display:flex;
+    justify-content: center; 
+    margin-top:60px;
+    width:100%;
+    gap:14vmax;
+}
+.infoperusahaan{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+}
+.infoperusahaan h1{
+    font-family:opensans;
+    font-size:2.5vw;
+}
+.infoperusahaan h2{
+    font-family:opensans;
+    font-weight:600;
+    font-size:2vmin;
+}
+.gambarwarmart img{
+    width:60vmin;
+}
+
+.selengkapnya{
+    margin-top:2vw;
+    background-color:#FF7A00;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 0.4vmin;
+    border-radius:20px;
+    width:43vmin;
+    height:8vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.visimisi{
+    background-image:url(/image/kantorkami.jpg);
+    background-position: center;
+    background-size: cover;
+    color:white;
+    flex-direction: row;
+    margin-top:5vw;
+}
+.kantorhitam{
+    background-color: rgb(0, 0, 0,0.64);
+    font-family:raleway;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.kantorhitam h1{
+    margin-bottom:1vw;
+}   
+.kantorhitam h2{
+    font-weight:600;
+    font-size:1.1vw;
+}
+.isivisimisi{
+    display:flex;
+    margin-top:8vw;
+    margin-bottom:8vw;
+    gap: 10em;
+}
+.visi{
+    padding-left:3.3vw;
+    padding-right:3.3vw;
+    outline-offset: 1.7em;
+    outline-style: solid;
+    outline-color: #EE6E17;
+}
+.misi{
+    padding-left:3.3vw;
+    padding-right:3.3vw;
+    outline-offset: 1.7em;
+    outline-style: solid;
+    outline-color: #EE6E17;
+}
+
+/* contact us */
+@font-face {
+    font-family: inter;
+    src: url(/font/Inter-VariableFont_slnt\,wght.ttf);
+}
+.hubungikami{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4E4E4;
+    padding-bottom:13vw;
+}
+.hubungikamitext{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.hubungikamitext h1{
+    font-family: inter;
+    margin-top:4vw;
+    font-size:3vw;
+    
+}
+.hubungikamitext hr{
+    background: #E89432;
+    height:1vmin;
+    outline: none;
+    border: none;
+}
+.garis1{
+    width:21em;
+}
+.garis2{
+    width:15em;
+    margin-top:0.5em;
+}
+.contact{
+    display:flex;
+    flex-direction: row;
+    margin-top:5vw;
+    gap:10em;
+    
+}
+.whatsapp{
+    width:17vw;
+    height:13vw;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius:3vw;
+    border-bottom-right-radius:3vw;
+    box-shadow:5px 17px 51px -12px rgb(0, 0, 0,0.25);
+    
+}
+.whatsapppic{
+    width:8vw;
+    height:8vw;
+    background-size: cover;
+    background-position: center;
+    background-image:url(/image/whatsapp.png);
+}
+.whatsapp h1{
+    color:#615F5F;
+    font-family: raleway;
+    font-weight:600;
+    font-size:1.5vw;
+}
+
+.email{
+    width:17vw;
+    height:13vw;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius:3vw;
+    border-bottom-right-radius:3vw;
+    box-shadow:5px 17px 51px -12px rgb(0, 0, 0,0.25);
+    
+}
+.emailpic{
+    width:8vw;
+    height:8vw;
+    background-size: cover;
+    background-position: center;
+    background-image:url(/image/email.png);
+}
+.email h1{
+    color:#615F5F;
+    font-family: raleway;
+    font-weight:600;
+    font-size:1.5vw;
+}
+
+.telepon{
+    width:17vw;
+    height:13vw;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius:3vw;
+    border-bottom-right-radius:3vw;
+    box-shadow:5px 17px 51px -12px rgb(0, 0, 0,0.25);
+    
+}
+.teleponpic{
+    width:8vw;
+    height:8vw;
+    background-size: cover;
+    background-position: center;
+    background-image:url(/image/telepon.png);
+}
+.telepon h1{
+    color:#615F5F;
+    font-family: raleway;
+    font-weight:600;
+    font-size:1.5vw;
+}
+.footer{
+    margin-top:0vw;
+}
+@media(max-width:1160px){
+    .profilperusahaan{
+        gap:2vmax;
+    }
+}
+
+@media(max-width:1014px){
+    .profilperusahaan{
+        gap:0vmax;
+    }
+}
+
+@media(max-width:990px){
+   .infoperusahaan h2{
+    text-align: center;
+   }
+    .profilperusahaan{
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:768px){
+    .isivisimisi{
+        flex-direction: column;
+        gap:5em;
+    }
+    .visimisi h2{
+        font-size:2vw;
+    }
+}
+
+@media(max-width:915px){
+    .contact{
+        gap:5em;
+    }
+}
+@media(max-width:600px){
+    .contact{
+        display:flex;
+        flex-direction: column;
+        gap:2em;
+    }
+    .whatsapp{
+        width:50vw;
+    }
+    .whatsapp h1{
+        font-size:4vw;
+    }
+    .email{
+        width:50vw;
+    }
+    .email h1{
+        font-size:4vw;
+    }
+    .telepon{
+        width:50vw;
+    }
+    .telepon h1{
+        font-size:4vw;
+    }
+}
+@media(max-width:450px){
+    .visi{
+        outline-offset: 1vw;
+    }
+    .misi{
+        outline-offset: 1vw;
+    }
+    .isivisimisi h2{
+        font-size:3vw;
+    }
+}
+@media(max-width:500px){
+    .infoperusahaan h2{
+        font-size:2.9vw;
+    }
+}

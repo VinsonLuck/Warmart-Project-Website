@@ -1,0 +1,750 @@
+@font-face {
+    font-family: poppinsbold;
+    src: url(/font/Poppins-Bold.ttf);
+}
+@font-face {
+font-family: poppinslight;
+src: url(/font/Poppins-Regular.ttf);
+}
+
+@font-face {
+font-family: inconsolata;
+src: url(/font/Inconsolata-Bold.ttf);
+}
+
+@font-face {
+font-family: opensans;
+src: url(/font/OpenSans-Bold.ttf);
+}
+body{
+    background-image: url(/image/warmartbackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+input[type="text"] {
+width: 252px;
+height: 38px;
+border-radius: 5px;
+border: 1px solid #000;
+background: rgba(255, 255, 255, 0.65);
+}
+input[type="date"] {
+    width: 252px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.65);
+    }
+
+button[type="submit"] {
+width: 329px;
+height: 55.888px;
+border-radius: 13px;
+border: 3px solid #000;
+background: #f1a980;
+text-align: center;
+font-size: 30px;
+font-family: opensans;
+font-weight: 700;
+}
+
+input[type="radio"] {
+width: 21px;
+height: 22px;
+border-radius: 22px;
+border-color: 120px solid #000;
+border-style: solid;
+border-width: 5px;
+accent-color: #232323;
+background: rgba(255, 255, 255, 0.65);
+
+filter: drop-shadow(4px 4px 4px #666666);
+}
+
+label[for="gender"] {
+text-align: center;
+font-size: 12px;
+font-family: inconsolata;
+font-weight: 700;
+}
+
+.banner {
+margin-top: 73px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: cover;
+background-image: url("/image/memberbackground.jpg");
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.banner h3 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #e07f25;
+box-shadow: 0px 0px 0px 17px rgba(0, 0, 0, 0.5);
+padding-top: 10px;
+width: 269px;
+height: 67px;
+text-align: center;
+font-size: 35px;
+font-family: raleway;
+font-weight: 700;
+}
+
+.info-member {
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+border-radius: 0px 0px 200px 0px;
+background: rgba(217, 217, 217, 0.22);
+height: 70vh;
+}
+
+.info-member img {
+width: 377px;
+height: 232px;
+flex-direction: row;
+}
+
+.info-member .text-member {
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 55%;
+gap:1em;
+}
+
+.info-member .text-member h3 {
+font-size: 36px;
+font-family: poppinsbold;
+font-weight: 800;
+}
+
+.info-member .text-member p {
+font-size: 20px;
+font-family: poppinslight;
+font-weight: 600;
+color: #000;
+}
+
+.registrasi {
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+height: 80vh;
+
+}
+
+.registrasi .registrasi-left {
+width: 594px;
+height: 475px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 2rem;
+background-image: url(/image/registerbackground.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 73px 0px 0px 73px;
+border-top: 6px solid #eee7e7;
+border-bottom: 6px solid #eee7e7;
+border-left: 6px solid #eee7e7;
+}
+
+.registrasi .registrasi-left h3 {
+color: #ff7410;
+text-align: center;
+font-size: 47px;
+font-family: poppins;
+font-weight: 700;
+margin-top: 10%;
+border-bottom: 4px solid #d9d9d9;
+}
+
+.registrasi .registrasi-left img {
+width: 345px;
+height: 217px;
+}
+
+.registrasi .registrasi-right {
+width: 594px;
+height: 475px;
+display: flex;
+flex-direction: column;
+position: relative;
+gap: 2rem;
+align-items: center;
+border-radius: 0px 73px 73px 0px;
+border-top: 6px solid #eee7e7;
+border-right: 6px solid #eee7e7;
+border-bottom: 6px solid #eee7e7;
+background: rgba(239, 88, 3, 0.7);
+}
+
+.registrasi .registrasi-right-form {
+display: flex;
+gap: 3rem;
+margin-top: 50px;
+justify-content: space-between;
+}
+
+.form-box1 b{
+    font-family:inconsolata;
+}
+.registrasi .registrasi-right .form-box1 {
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+
+.registrasi .registrasi-right .form-box1 text {
+width: 252px;
+height: 38px;
+border-radius: 5px;
+border: 1px solid #000;
+background: rgba(255, 255, 255, 0.65);
+}
+
+.registrasi .registrasi-right .form-box1 label {
+color: #000;
+text-align: left;
+font-size: 32px;
+font-family: Inconsolata;
+font-weight: 700;
+}
+
+.registrasi .registrasi-right .form-box2 {
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+
+.registrasi .registrasi-right .form-box2 text {
+width: 252px;
+height: 38px;
+border-radius: 5px;
+border: 1px solid #000;
+background: rgba(255, 255, 255, 0.65);
+}
+
+.registrasi .registrasi-right .form-box2 label {
+color: #000;
+text-align: left;
+font-size: 32px;
+font-family: Inconsolata;
+font-weight: 700;
+}
+
+.registrasi .registrasi-right .form-box2 .gender {
+display: flex;
+flex-direction: row;
+gap: 1rem;
+justify-content: space-between;
+}
+
+.registrasi .registrasi-right .form-box2 .gender p {
+text-align: center;
+font-size: 24px;
+font-family: Inconsolata;
+font-weight: 700;
+}
+
+.registrasi .registrasi-right p {
+color: #000;
+text-align: center;
+font-size: 15px;
+font-family: inconsolata;
+font-weight: 700;
+}
+
+.registrasi .registrasi-right .daftar {
+justify-content: space-between;
+}
+
+.registerbtn:hover {
+background-color: #df773c;
+}
+
+@media (max-width: 1160px) {
+.banner {
+    width: 100%;
+}
+.info-member .text-member {
+    display: flex;
+   
+    flex-direction: column;
+    
+}
+.info-member .text-member h3 {
+    font-size: 30px;
+}
+
+.info-member .text-member p {
+    font-size: 15px;
+}
+.registrasi .registrasi-left {
+    width: 500px;
+    height: 400px;
+}
+.registrasi .registrasi-right {
+    width: 500px;
+    height: 400px;
+}
+
+.registrasi .registrasi-left h3 {
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.65);
+}
+input[type="date"] {
+    width: 200px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.65);
+}
+
+
+.registrasi .registrasi-right .form-box1 label {
+    font-size: 25px;
+}
+
+.registrasi .registrasi-right .form-box2 label {
+    font-size: 25px;
+}
+
+button[type="submit"] {
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.registrasi .registrasi-right .form-box2 .gender p {
+    font-size: 20px;
+}
+}
+
+@media (max-width: 1024px) {
+.banner {
+    width: 100%;
+}
+.info-member .text-member {
+    display: flex;
+    flex-direction: column;
+   
+}
+.info-member .text-member h3 {
+    font-size: 30px;
+}
+
+.info-member .text-member p {
+    font-size: 15px;
+}
+.registrasi .registrasi-left {
+    width: 500px;
+    height: 400px;
+}
+.registrasi .registrasi-right {
+    width: 500px;
+    height: 400px;
+}
+
+.registrasi .registrasi-left h3 {
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 38px;
+}
+input[type="date"] {
+    width: 200px;
+    height: 38px;
+}
+
+.registrasi .registrasi-right .form-box1 label {
+    font-size: 25px;
+}
+
+.registrasi .registrasi-right .form-box2 label {
+    font-size: 25px;
+}
+
+button[type="submit"] {
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.registrasi .registrasi-right .form-box2 .gender p {
+    font-size: 20px;
+}
+}
+
+@media (max-width: 991px) {
+.banner {
+    height: 60vh;
+}
+.info-member {
+    height: 40vh;
+}
+.registrasi {
+    height: 60vh;
+}
+
+.registrasi .registrasi-left {
+    width: 400px;
+    height: 300px;
+}
+.registrasi .registrasi-right {
+    width: 400px;
+    height: 300px;
+}
+
+.registrasi .registrasi-left h3 {
+    font-size: 30px;
+    margin-top: 5%;
+}
+.registrasi .registrasi-left img {
+    width: 300px;
+    height: 200px;
+}
+input[type="text"] {
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.65);
+}
+input[type="date"] {
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.65);
+}
+
+.registrasi .registrasi-right .form-box1 label {
+    font-size: 20px;
+}
+
+.registrasi .registrasi-right .form-box2 label {
+    font-size: 20px;
+}
+
+button[type="submit"] {
+    width: 210px;
+    font-size: 15px;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+
+.registrasi .registrasi-right .form-box2 .gender p {
+    font-size: 15px;
+}
+
+.registrasi .registrasi-right-form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 150px;
+    height: 30px;
+}
+input[type="date"] {
+    width: 150px;
+    height: 30px;
+}
+
+.registrasi .registrasi-right .daftar p {
+    font-size: 10px;
+    margin-left: 15px;
+}
+}
+
+@media (max-width: 930px) {
+.banner {
+    height: 60vh;
+}
+.info-member {
+    height: 40vh;
+ 
+}
+
+.info-member img {
+    width: 300px;
+    height: 200px;
+}
+
+.info-member .text-member h3 {
+    font-size: 20px;
+}
+.info-member .text-member p {
+    font-size: 12px;
+}
+.registrasi {
+    height: 60vh;
+}
+
+.registrasi .registrasi-left {
+    width: 400px;
+    height: 300px;
+}
+.registrasi .registrasi-right {
+    width: 400px;
+    height: 300px;
+}
+
+.registrasi .registrasi-left h3 {
+    font-size: 30px;
+    margin-top: 5%;
+}
+.registrasi .registrasi-left img {
+    width: 300px;
+    height: 200px;
+}
+input[type="text"] {
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.65);
+}
+input[type="date"] {
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.65);
+}
+
+.registrasi .registrasi-right .form-box1 label {
+    font-size: 20px;
+}
+
+.registrasi .registrasi-right .form-box2 label {
+    font-size: 20px;
+}
+
+button[type="submit"] {
+    width: 210px;
+    font-size: 15px;
+    margin-top: -50px;
+    margin-left: 15px;
+}
+
+.registrasi .registrasi-right .form-box2 .gender p {
+    font-size: 15px;
+}
+
+.registrasi .registrasi-right-form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 150px;
+    height: 30px;
+}
+input[type="date"] {
+    width: 150px;
+    height: 30px;
+}
+
+.registrasi .registrasi-right .daftar p {
+    font-size: 10px;
+    margin-left: 15px;
+}
+}
+
+@media (max-width: 768px) {
+.banner {
+    height: 100vh;
+}
+.banner h3 {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+}
+.info-member {
+    height: 70vh;
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.info-member .text-member {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    width:80vw;
+}
+.info-member .text-member h3 {
+    font-size:30px;
+}
+.info-member img {
+    width: 300px;
+    height: 170px;
+
+}
+.info-member .text-member p {
+    font-size: 12px;
+}
+.registrasi{
+    display:flex;
+    flex-direction: column;
+}
+.registrasi .registrasi-left {
+    width: 500px;
+    height: 250px;
+    border-radius: 73px 73px 0px 0px;
+border-top: 6px solid #eee7e7;
+border-left: 6px solid #eee7e7;
+border-right: 6px solid #eee7e7;
+border-bottom: none;
+}
+.registrasi .registrasi-right {
+    width: 500px;
+    height: 250px;
+    border-top:none;
+    border-radius: 0px 0px 73px 73px;
+    border-bottom: 6px solid #eee7e7;
+    border-left: 6px solid #eee7e7;
+    border-right: 6px solid #eee7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registrasi .registrasi-left h3 {
+    font-size: 25px;
+    margin-top: 5%;
+}
+.registrasi .registrasi-left img {
+    width: 200px;
+    height: 130px;
+    
+}
+input[type="text"] {
+    width: 150px;
+    height: 20px;
+}
+input[type="date"] {
+    width: 150px;
+    height: 20px;
+}
+
+.registrasi .registrasi-right .form-box1 label {
+    font-size: 15px;
+}
+
+.registrasi .registrasi-right .form-box2 label {
+    font-size: 15px;
+}
+
+button[type="submit"] {
+    width: 150px;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.registrasi .registrasi-right .form-box2 .gender p {
+    font-size: 12px;
+}
+
+.registrasi .registrasi-right-form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 150px;
+    height: 20px;
+}
+input[type="date"] {
+    width: 150px;
+    height: 20px;
+}
+
+.registrasi .registrasi-right .daftar p {
+    font-size: 10px;
+    margin-left: 15px;
+}
+
+input[type="radio"] {
+    width: 15px;
+    height: 15px;
+}
+
+}
+
+@media(max-width:526px){
+    .info-member{
+        height:80vh;
+    }
+    .registrasi{
+        display:flex;
+        margin-top:50px;
+        margin-bottom:150px;
+    }
+    .registrasi .registrasi-left{
+        width:300px;
+    }
+    .registrasi .registrasi-right{
+        width:300px;
+        margin-top:none;
+        height:60vh;
+    }
+    input[type="text"] {
+        width: 200px;
+        height: 20px;
+    }
+    input[type="date"] {
+        width: 200px;
+        height: 20px;
+    }
+    .registrasi .registrasi-right-form{
+        gap:1rem;
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:462px){
+    .registrasi{
+        display:flex;
+        margin-top:100px;
+        margin-bottom:150px;
+    }
+}
+@media(max-width:430px){
+    .info-member .text-member h3 {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+}
+@media(max-width:428px){
+    .registrasi{
+        display:flex;
+        margin-top:150px;
+        margin-bottom:150px;
+    }
+}

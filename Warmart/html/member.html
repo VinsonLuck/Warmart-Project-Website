@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warmart | Member</title>
+    <link rel="stylesheet" href="/css/menu.css" />
+    <link rel="stylesheet" href="/css/member.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i>
+            <img
+              class="fasfa-bars"
+              src="/image/menu icon.png"
+              alt="Menu Icon"
+            />
+          </i>
+        </label>
+        <label id="warmartlogoresponsive">
+          <img
+            class="warmartlogo"
+            src="/image/warmart_logo.png"
+            alt="warmartlogo"
+          />
+        </label>
+
+        <ul>
+          <li><a class="" href="/html/beranda.html">Beranda</a></li>
+          <li><a class="" href="/html/promo.html">Promo</a></li>
+          <li><a class=" " href="/html/produk.html">Produk</a></li>
+          <li><a class="active" href="/html/member.html">Member</a></li>
+          <li><a class="" href="/html/tentangkami.html">Tentang Kami</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="banner">
+      <h3>MEMBERSHIP</h3>
+    </div>
+
+    <div class="info-member">
+      <div class="text-member">
+        <h3>Bagaimana Cara Menjadi <br>Member di Warmart?</h3>
+        <p>
+          Kemudahan selalu kami utamakan agar pelanggan setia kami <br>
+          dapat dengan mudah bergabung menjadi member Warmart. <br>
+          Dengan mengunjungi toko Warmart terdekat , kamu bisa <br>
+          mendapatkan kartu Member dan melakukan aktivasi. <br>
+          Tunjukkan kartu member ataupun dengan menyebutkan <br> 
+          nomor handphone, Member akan mendapat manfaat dan <br>
+          penawaran yang begitu banyak.
+        </p>
+      </div>
+      <img src="/image/card.png" alt="" />
+    </div>
+
+    <div class="registrasi">
+      <div class="registrasi-left">
+        <h3>Registrasi</h3>
+        <img src="/image/card.png" alt="" />
+      </div>
+      <div class="registrasi-right">
+        <div class="registrasi-right-form">
+          <div class="form-box1">
+            <label for="username"><b>Nama Lengkap</b></label>
+            <input
+              type="text"
+              placeholder=""
+              name="username"
+              id="username"
+              required
+            />
+
+            <label for="email"><b>Alamat Email</b></label>
+            <input
+              type="text"
+              placeholder=""
+              name="email"
+              id="email"
+              required
+            />
+
+            <label for="birthday"><b>Tanggal lahir</b></label>
+            <input
+              type="date"
+              placeholder=""
+              name="birthday"
+              id="birthday"
+              required
+            />
+          </div>
+
+          <div class="form-box2">
+            <label for="domisili"><b>Domisili</b></label>
+            <input
+              type="text"
+              placeholder=""
+              name="domisili"
+              id="domisili"
+              required
+            />
+
+            <label for="phone"><b>Nomor Telepon</b></label>
+            <input
+              type="text"
+              placeholder=""
+              name="phone"
+              id="phone"
+              required
+            />
+
+            <label for="gender"><b>Jenis Kelamin</b></label>
+            <div class="gender">
+              <input type="radio" name="gender" value="male" required />
+              <p><b>Pria</b></p>
+              <input type="radio" name="gender" value="female" required />
+              <p><b>Wanita</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="daftar">
+          <button type="submit" class="registerbtn" onclick="validateForm()">
+            Daftar
+          </button>
+          <p>Dapatkan Keuntungan Secara Maksimal!</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <div class="bagian1">
+            <img src="/image/warmartLogo.png" alt="">
+            <div class="bagian1tulisan">
+                <h1>PT Jaya Abadi Selalu, Tbk.</h1>
+                <h2>Jl. Uler Sutra No.2</h2>
+                <h2>Jakarta Utara,DKI Jakarta 12150</h2>
+            </div>
+            
+        </div>
+        <div class="terhubungbersama">
+            <h1>Terhubung Bersama Kami</h1>
+            <div class="gambarhubung">
+                <img src="/image/twitter.png" alt="">
+                <img src="/image/facebook.png" alt="">
+                <img src="/image/icons8-linkedin-50.png" alt="">
+                <img src="/image/instagram.png" alt="">
+            </div>
+        </div>
+        <div class="franchisecabang">
+            <h1>Franchise</h1>
+            <div class="cabangcabang">
+                <div class="cabangkiri">
+                    <h1>Jl. ArianaGrande No.10</h1>
+                    <h1>Jl. Sutisna No.56</h1>
+                    <h1>Jl. Soeparmo No.2</h1>
+                </div>
+                <div class="cabangkanan">
+                    <h1>Jl. Sutdjono No.32</h1>
+                    <h1>Jl. Sutisna No.24</h1>
+                    <h1>Jl. Soeparmo No.16</h1>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer-bottom">
+        <p>Copyright&copy; 2023 PT Jaya Abadi Selalu, Tbk.</p>
+    </footer>
+  </body>
+
+  <script src="/js/member.js">
+  </script>
+</html>

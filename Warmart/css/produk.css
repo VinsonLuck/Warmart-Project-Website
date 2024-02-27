@@ -1,0 +1,326 @@
+@font-face {
+    font-family: opensans;
+    src: url(/font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+.banner{
+    margin-top: 73px;
+    font-family: 'Open Sans';
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url('/image/produkbackground.jpg');
+    background-repeat: no-repeat;
+    height: 80vh;
+   
+}
+
+.banner h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FF5C00E6;
+    border-radius: 40px;
+    width: 750px;
+    height: 180px;
+}
+
+#logo-banner{
+    width: 750px;
+    height: 180px;
+    position: relative;
+}
+
+.banner h3{
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold italic;
+    color: black;
+    /* top: 345px; */
+    /* left: 650px; */
+    bottom: 20%;
+    right: 15%;
+    
+    font-family: opensans;
+    white-space: nowrap;
+}
+
+.banner img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    float: left;
+    border-radius: 200px;
+    width: 700px;
+    height: 300x;
+}
+
+.perusahaan{
+    padding: 10rem;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    text-align: center;
+    background-color: #F9CE9D;
+    border-radius: 0 0 300px 0;
+}
+
+.perusahaan .text h2{
+    font-size: 50px;
+    margin-top: -90px;
+}
+
+.perusahaan .logo-perusahaan{
+    display: flex;
+    gap: 5rem;
+}
+
+.perusahaan .logo-perusahaan .logo{
+    padding: 70px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: rgb(214, 214, 214);
+    -webkit-filter: drop-shadow(10px 10px 1px #13030350);
+    
+}
+
+.perusahaan .logo-perusahaan img{
+    width: 250px;
+    height: 220px;
+ 
+}
+
+.per-perusahaan{
+    padding: 20px;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.per-perusahaan .kategory{
+    display: flex;
+    flex-direction: column;
+    gap: 3px; 
+    text-align: left;
+    padding: 0 3.4vw;
+}
+
+.per-perusahaan .kategory .list-kategory {
+    width: 91.5vw;
+    display: flex;
+    gap: 50px;
+    overflow-x: auto;
+    cursor: grab;
+}
+
+.per-perusahaan .kategory .list-kategory::-webkit-scrollbar{
+    appearance: none;
+}
+
+.per-perusahaan .kategory .list-kategory .image{
+    padding: 20px;
+    margin: 15px;
+    object-fit: contain;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 15px 15px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.per-perusahaan .kategory .list-kategory img{
+    width: 200px;
+}
+
+.indofood{
+    border-radius: 0 0 0 0px;
+    background-color: rgba(217, 217, 217, 0.3);
+}
+
+.unilever{
+    border-radius: 0 0 0 0px;
+    background-color: rgba(217, 217, 217, 0.3);
+}
+
+@media(max-width:1280px){
+    .perusahaan .text h2{
+        font-size: 60px;
+    }
+    .perusahaan .logo-perusahaan img{
+        width: 100px;
+        height: 100px;
+        float: none;
+    }
+    .banner h3{
+        margin-left: -90px;
+    }
+}
+
+@media(max-width:1024px){
+    @media(max-height:768px){
+    .perusahaan .text h2{
+        font-size:45px;
+    }
+    .perusahaan .logo-perusahaan img{
+        width: 70px;
+        height: 70px;
+    }
+    .banner h3{
+        font-size: 16px;
+        margin-top: -20px;
+        margin-left: -220px;
+    }
+    .banner h2{
+       width: 600px; 
+       height: 150px;
+    }
+    #logo-banner{
+        width: 600px;
+        height: 150px;
+    }
+    .banner img{
+        width: 500px;
+    }
+    }
+}
+
+@media(max-width:1024px){
+    @media(max-height:600px){
+        .perusahaan .text h2{
+            font-size:45px;
+        }
+        .perusahaan .logo-perusahaan img{
+            width: 70px;
+            height: 70px;
+        }
+        .banner h2{
+           width: 700px; 
+           height: 150px;
+        }
+        #logo-banner{
+            width: 700px;
+            height: 150px;
+        }
+        .banner img{
+            width: 600px;
+        }
+        .banner h3{
+            font-size: 20px;
+            margin-top: -80px;
+            margin-left: -220px;
+        }
+    }
+}
+
+
+@media(max-width:992px){
+    .perusahaan .logo-perusahaan{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .perusahaan .text h2{
+        font-size: 45px;
+    }
+    .banner img{
+        width: 450px;
+        height: 300px;
+    }
+    #logo-banner{
+        width: 500px;
+        height: 100px;
+    }
+    .banner h2{
+        width: 500px;
+        height: 100px;
+        border-radius: 20px;
+    }
+    .banner h3{
+        font-size: 11px;
+        margin-top: -100px;
+        margin-left: -210px;
+    }
+}
+
+@media(max-width:775px){
+    .perusahaan .logo-perusahaan{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .perusahaan .text h2{
+        font-size: 40px;
+    }
+    .banner img{
+        width: 400px;
+        height: 300px;
+    }
+    .banner h2{
+        width: 500px;
+        height: 100px;
+    }
+    #logo-banner{
+        width: 500px;
+        height: 100px;
+    }
+    .banner h3{
+        font-size: 11px;
+        margin-top: -185px;
+        margin-left: -310px;
+    }
+}
+
+@media(max-width:971px){
+    .per-perusahaan .kategory .list-kategory {
+       width:90vw;
+    }
+    
+}
+
+@media(max-width:517px){
+    .per-perusahaan .kategory .list-kategory {
+        width:90vw;
+     }
+   
+}
+@media(max-width:571px){
+    .banner h2{
+        width: 350px;
+        height: 110px;
+    }
+    .banner img{
+        width:300px;
+        height:200px;
+    }
+    .banner h3{
+        display:none;
+     }
+}
+
+@media(max-width:601px){
+    .per-perusahaan .kategory{
+        padding: 0 3vw;
+    }
+}
+
+@media(max-width:517px){
+    .per-perusahaan .kategory{
+        padding: 0 2.6vw;
+    }
+   
+}
